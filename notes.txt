@@ -1,8 +1,7 @@
-https://github.com/richardsforu/CTS-CHN-March.git
 
 
 
-npm config set proxy http://proxy.cognizant.com:6050
-npm config set https-proxy http://proxy.cognizant.com:6050
-npm config set registry https://registry.npmjs.org/
-npm set strict-ssl false
+
+set http_proxy=http://proxy.cognizant.com:6050
+set https_proxy=https://proxy.cognizant.com:6050
+git pull https://github.com/richardsforu/CTS-CHN-March.git
