@@ -1,0 +1,16 @@
+static methods never access non sttaic data directly
+non static methods (instance) access static and non static directly
+static methods access only static data directly
+
+-> non stataic methods accepts non static data and static data
+-> static methods accepts only static data. non static data cannot be accepted directly
+-> static data is sharable to all objects
+-> non static data is personal to its own object
+-> If any class contains non static data, then creation of an objectc is mandatary
+   to access non sttaic data fron a static method
+-> if any class contains static data, then creation of object is not nessasary to access it.
+   static data can be called directly if it is available in the same class. 
+-> If the static data is available in another class, then you must call that static data
+   with class name where static data exists
+
+
