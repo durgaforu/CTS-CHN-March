@@ -1,0 +1,23 @@
+Encapulation
+---------------
+Binding methods and properties together is called encapulation
+
+Rules for making encapulated classes
+--------------------------------------
+-> Every property in the class must be private
+-> Every method in the class must be public with getters and setters
+
+getters
+--------
+	-> getters will not have parameters, but will have return type
+Setters
+-------
+	-> setter will not have return type, but will have parameters
+
+
+POJO (Plain old java object) , bean , model, entity class
+
+
+
+
+

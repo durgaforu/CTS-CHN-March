@@ -1,0 +1,18 @@
+Constructors
+----------------
+
+-> Constructor is a special method which invoked by JVM autometically when the object 
+   of the class gets created
+
+Rules for Defining Constructors
+---------------------------------
+	-> Class name and constructor name must be same
+	-> No return type should be specified to the constructor, not even void
+	-> Constructors can take/have parameters
+	-> Constructors can overloaded, but cannot overridden
+Notes
+-----------
+	-> JVM adds a default constructor, when you dont provide any parametarized constructor
+	-> If you want to create object to a class with any paramets, tjen you must provide a            default constructor
+	
+
