@@ -1,0 +1,21 @@
+Types f classes
+-------------------
+1. Concrete class : Full implentation
+Ex: class Test{
+        void f1() { .. }
+        void f2() { .. }
+   }
+
+2. abstract classes : class with partial implementations of methods with abstract methods
+Ex: abstract class Test{
+       void f1() { .. }
+       abstract void f2();
+   }
+
+3. final classes: A class can not be used as super class to any other class
+Ex: final class Test{   }
+    class Use extends Test {} --> invalid
+
+
+
+ 

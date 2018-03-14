@@ -1,0 +1,7 @@
+
+
+
+
+set http_proxy=http://proxy.cognizant.com:6050
+set https_proxy=https://proxy.cognizant.com:6050
+git pull https://github.com/richardsforu/CTS-CHN-March.git
