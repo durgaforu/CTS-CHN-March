@@ -9,5 +9,9 @@ public class Shape {
 	public void info() {
 		System.out.println("-- Information about Shape class");
 	}
+	
+	protected void f1() {
+		
+	}
 
 }
