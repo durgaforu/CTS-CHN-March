@@ -45,6 +45,27 @@ Notes
 
  
 
+ Overridden methods scores
+------------------------------
+-> if a super class method is defined as default, thne sub class overriden method can be
+   defined as default, public and protected
+
+-> If a super class method is defined as public , then sub class method can be defined as 
+   only public
+
+-> If a super class method is defined as procted, then sub class method can be defined as
+   procted and public
+
+
+Notes
+----------
+-> A super class referance object can store all its sub class objects
+-> The referance of a super class can be used to access every method in the super class
+   and overriden methods of a sub class (a method which is there in the super class and 
+   sub class)
+-> The reference of a super class can not be used to access the individual methods of a 
+   sub class (A method which is not there in the super class and only there in the sub
+   class)
 
 
 

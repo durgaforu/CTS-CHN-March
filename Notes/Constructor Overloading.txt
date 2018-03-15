@@ -1,6 +1,6 @@
 Constructor overloading
 ---------------------------------
--> Sub class contains copy of a super class default constructor always
+-> Sub class contains copy of a super class default constructor always.
 -> If you are callig sub class defalt constructor, make sure that super class also must 
    have default constructor
 -> If you dont provide defaullt constructor in the super class, and invokng the default
