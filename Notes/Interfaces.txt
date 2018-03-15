@@ -1,0 +1,16 @@
+Interfaces
+----------------
+-> Interface is a method specification which contains zero or more abstract methods.
+-> Interface does not support concreate methods
+-> By default every variable in interface is public static and final
+-> By default every methods in the interface is public and abstract
+
+Notes
+-------
+A class can extends to another class
+A class can implements to an another interface
+A Class cannot implements another class
+A Class cannot extends ti another interface
+An interface can extends to anorther interface
+An interface cannot implements another interface
+An interface can extends more than one interface
