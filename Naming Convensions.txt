@@ -1,0 +1,31 @@
+Naming Convensions in java
+
+class
+------
+       Every class in java should starts with upper case letters only. If there are more than
+       one word in a class name, then each word first letter should be capitalized
+Ex:    Student, ProcessData, InputDataStream  
+
+methods/variables/objects
+--------------------------
+	Every method in java should be starts with lower case letter only. If there are more 	than one word in a method/variable/objejct name, then each word first letter
+        should be capitalized
+Ex:	display(), processData(), inputEmployeeInfo(), age, studentName, employeeObj
+
+Const
+------
+	All conts in java should be defined in upper case letters only
+Ex:	PI, MAX_AGE, COMPANY_NAME etc
+
+keywords
+---------
+	All keywords in java should be writtern in lower case only.
+Ex:	int, class, if, switch, for etc
+
+
+
+
+
+
+
+

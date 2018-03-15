@@ -1,0 +1,20 @@
+Constructor overloading
+---------------------------------
+-> Sub class contains copy of a super class default constructor always
+-> If you are callig sub class defalt constructor, make sure that super class also must 
+   have default constructor
+-> If you dont provide defaullt constructor in the super class, and invokng the default
+   constructor of a sub class, by default JVM adds a default constructor in the super class,      if you are not providing any parametarized constructor in the super class
+-> If you are providing parametarized constructor in the super class, and invoking default       constructor of a sub class, then you must provide default constructor your self in the
+   super class. Other wise invoke parametarized constructor of a super class from the sub 
+   class default constructor with super keyword.
+-> if provide parametarized constructor in the super and sub classes, and sub class contains
+   default constructor also and when you are invoking default constrctor or parametarized    constructor of a sub class, then
+   providing default constructor in the super class is mandatary. Other wise, invoke super 
+   class parametarized constructor using super key word from both dfault and parametarized
+   constructors of a sub class.
+
+
+
+
+

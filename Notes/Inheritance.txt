@@ -1,0 +1,69 @@
+Inheritance
+-----------------
+-> Aquaring properties of a super class into sub class.
+-> super/base/parent -> sub class/child class/derrived class
+
+Uses
+-----
+	-> Code reusability
+	-> Partial data abstraction
+	-> method overriding
+Class relationships
+
+	-> is 'A' relation ship
+	-> has 'A' relation ship
+Method Overriding
+--------------------
+	-> defining the same method name with same signature of a super class into 
+           sub class is called method overriding
+
+   method signature:
+		-> name of method
+		-> number of arguments
+		-> type of arguments
+		-> postition of arguments
+		-> scope of a method (public, default,private and protected)
+		-. Return type of a methodz`
+
+Method overnoading is called as 'static poly-morphism'
+Method overriding is called as  'dynamic poly-morphism'
+
+
+Notes
+------
+	-> Sub class object contains copy of super data.
+	-> Sub class object can access instance variables, instance methods and constructors
+           of a super class
+	-> Super class object cannnot access anything from sub class
+	-> We cannot override static methods
+	-> We cannot define constructors as static
+	-> Constructors can be overloded, but cannot overrriden
+	-> To make sure method overriden happening smoothly use '@Override' annotation
+	-> java.lang.Object is super class to every class in java by default
+	-> super  keyword is used to access data of a super class from sub class overrriden
+           methods
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+Java Plotforms
+-----------------
+1. JAVA SE (java standard edition)	-> stand alone application development
+2. JAVA EE (java enterprise edition)	-> server side/enterprise development
+3. JAVA ME (java mobile edition)	-> low level / mobile application development
+
+
+Compresion files of Java technology
+-----------------------------------------
+1. jar (java archive)  -> compressed file format having only .class files
+2. war (web archive) -> compressed file format having web related files like html/java ee
+			class/ css / images /audio / video etc
+3. ear (enterprise archive) -> compresed file format for enterprise application develipment
+ 			 apps like ejb or any distruted application development
+
+
+Java Build tools: identify source code locations, compile them, creates specifies packages
+                  and moves compiled classes to the specfic locations automatically
+1. ant (anoter neat tool)
+2. maven 
+3. gradel 
+
+
+git config remote.origin.url git@github.com:praveen.somireddy@gmail.com/https://github.com/richardsforu/CTS-CHN-March.git
+
+
+
+
+
+
+
+
+
+
+
