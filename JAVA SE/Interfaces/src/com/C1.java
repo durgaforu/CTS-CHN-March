@@ -1,5 +1,4 @@
 package com;
-
 public class C1 implements MyInter,MyInter2{
 
 	@Override
