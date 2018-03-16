@@ -1,0 +1,8 @@
+Strings
+-----------
+1. Immutable  -> the content of an object cannot be modified/changed 
+2. Mutable   -> The content of an object can be modified / changed
+
+Immutable: String, and all Wraper classes in java like Integer, Float, Double .. etc
+Mutable: StringBuffer, StringBuilder and all complex classes
+
