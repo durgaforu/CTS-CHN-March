@@ -1,0 +1,28 @@
+Exception Handling in Java
+---------------------------------
+
+-> Normal termination    -> line 1 to line n gets executed 
+-> Ab-Normal termination -> starts with line 1 , will not execute all statemnets.
+
+1. try
+2. catch
+3. finally
+4. throw
+5. throws
+
+------------------------------------------------------
+
+Types of Exxceptions
+------------------------
+	Two TYpes
+	1. Checked Exceptions (Compiltime execeptions)
+	2. Unchecked Exceptions (Run time execptins)
+
+		Two Types
+		--------------
+			1. Built in
+			2. User Defined
+
+
+
+
