@@ -1,0 +1,18 @@
+Wraper classes
+--------------------
+-> Wraping / Converting object primitives into Objects and vice versa.
+	
+	primitive types			waraper types
+	----------------		--------------
+		int				Integer
+		byte				Byte
+		short				Short
+		long				Long
+		float				Float
+		double				Double
+		char (UNICODE) i18n		Character
+		boolean				Boolean
+	----------------------------------------------------
+
+
+
