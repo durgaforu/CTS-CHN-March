@@ -1,0 +1,36 @@
+java.io ( IO streams )
+
+	-> Byte streams       -> bytes (i.e  1 and 0)
+	-> Character streams  -> character format( UNICODE)
+ 	
+
+	
+          InputStream
+		FileInputStream
+		DataInputStream
+		ObjectInputStream
+		
+	  OutputStream
+		FileOutputStream
+		DataOutputStream
+		ObjectOutputStream
+          
+          Reader
+		FileReader
+		InputStreamReader
+		
+          Writer
+		FileWriter
+		InputSreamWriter
+
+
+   File  -> java.io -> 
+
+
+
+
+
+
+
+
+
