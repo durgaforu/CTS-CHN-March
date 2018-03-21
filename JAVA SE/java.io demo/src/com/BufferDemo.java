@@ -1,7 +1,6 @@
 package com;
 
 import java.io.BufferedReader;
-import java.io.DataInputStream;
 import java.io.InputStreamReader;
 
 public class BufferDemo {
