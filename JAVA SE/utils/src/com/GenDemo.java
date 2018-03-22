@@ -1,9 +1,7 @@
 package com;
 
 import java.util.ArrayList;
-class Employee{
-	
-}
+
 public class GenDemo<E> {
 
 	ArrayList<Object> arr = new ArrayList<>();
@@ -24,7 +22,7 @@ public class GenDemo<E> {
 
 	public static void main(String[] args) {
 
-		GenDemo<Employee> g = new GenDemo<>();
+		GenDemo<Object> g = new GenDemo<>();
 		/*g.add("Praveen");
 		g.add("James");
 		g.add('A');
