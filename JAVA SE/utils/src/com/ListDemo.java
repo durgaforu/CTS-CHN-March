@@ -1,14 +1,12 @@
 package com;
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
+import java.util.Vector;
 public class ListDemo {
 
 	public static void main(String[] args) {
 		
 		
-	List<Object> arr=new ArrayList<>();
+	List<Object> arr=new Vector<>();
 		
 		arr.add("Praveen");
 		arr.add('A');
@@ -19,6 +17,7 @@ public class ListDemo {
 		arr.add(65.45f);
 		arr.add(0, 10000);
 		arr.add(65.45f);
+		arr.add(null);
 		
 		/*System.out.println(arr);
 		System.out.println("Size: "+arr.size());
@@ -83,7 +82,7 @@ public class ListDemo {
 		
 		// 4. using ListIterator
 		
-		ListIterator<Object> li=arr.listIterator();
+		/*ListIterator<Object> li=arr.listIterator();
 		
 		while(li.hasNext()) {
 			
@@ -96,7 +95,7 @@ public class ListDemo {
 				
 			System.out.println(obj);
 		}
-		
+		*/
 		System.out.println(arr);
 		
 	/*	System.out.println("-----------------------");
