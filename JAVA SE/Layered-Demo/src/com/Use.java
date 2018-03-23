@@ -1,10 +1,6 @@
 package com;
-
-import java.sql.Connection;
 import java.util.List;
 
-import com.cts.employee.dao.EmployeeDao;
-import com.cts.employee.dao.utils.DBUtil;
 import com.cts.employee.model.Employee;
 import com.cts.employee.service.EmployeeService;
 import com.cts.employee.service.EmployeeServiceImpl;
