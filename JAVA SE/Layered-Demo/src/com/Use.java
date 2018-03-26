@@ -1,6 +1,7 @@
 package com;
 import java.util.List;
 
+import com.cts.employee.dao.utils.DBUtil;
 import com.cts.employee.model.Employee;
 import com.cts.employee.service.EmployeeService;
 import com.cts.employee.service.EmployeeServiceImpl;
@@ -13,10 +14,10 @@ public class Use {
 		emp.setEmpName("Kavya Sharma");
 		emp.setSalary(4973947);*/
 
-		EmployeeService empService = new EmployeeServiceImpl();
+		/*EmployeeService empService = new EmployeeServiceImpl();
 		 //empService.saveEmployee(emp);
 
-		List<Employee> emps=empService.listEmployees();
+		List<Employee> emps=e	mpService.listEmployees();
 		
 		for(Employee emp:emps) {
 			System.out.println("EMpId: "+emp.getEmpId());
@@ -24,9 +25,10 @@ public class Use {
 			System.out.println("Salary: "+emp.getSalary());
 			System.out.println("--------------------------------");
 			
-		}
+		}*/
 		
 		
+		DBUtil.generatePK();
 		
 
 	}
