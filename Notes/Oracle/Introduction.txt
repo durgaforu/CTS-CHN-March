@@ -102,6 +102,51 @@ add constraint prod_prodid primary key(prod_id)
 
 
 
+Foreign Key
+------------------
+
+create table stock(
+stock_id number(10),
+prod_id number(10),
+quantity number(10)
+)
+
+--> add primary key
+
+alter table stock
+add constraint stock_stockid primary key(stock_id) 
+
+--> add Foreign key
+
+alter table stock
+add constraint stock_prodid_fk foreign key(prod_id)references product(prod_id)
+
+
+Save 5 Records to the Product table
+
+insert into product values(1,'Pen',34);
+insert into product values(2,'Book',54);
+insert into product values(3,'Mouse',474);
+insert into product values(4,'Lappy',3833);
+insert into product values(5,'Soap',12);
+
+
+
+Save 5 records into Stock
+insert into stock values(1024,1,150);
+insert into stock values(1025,2,250);
+insert into stock values(1026,3,45);
+insert into stock values(1027,4,874);
+insert into stock values(1028,5,1000);
+
+-> Update Product Record
+update product set price=12 where prod_id=1;
+update product set prod_name='Ball pen' where prod_id=1;	
+
+select p.prod_id,p.prod_name,p.price,s.quantity ||'HH' from product p,stock s where p.prod_id=s.prod_id;
+
+select p.prod_id,p.prod_name,p.price,s.quantity,(p.price*s.quantity) "Total Cost" from product p,stock s where p.prod_id=s.prod_id;
+
 
 
 
