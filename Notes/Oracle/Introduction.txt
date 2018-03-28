@@ -1,0 +1,125 @@
+DML (Data manupulation languge)  -> Non Commited
+	-> insert
+	-> update
+	-> delete
+DDL (Data Defination Language) -> auto commited
+	-> create
+	-> alter
+	-> truncate
+
+DRL (Data Retrival Language)
+	-> select
+
+DCL (Data Transaction Language)
+	-> commit
+	-> rollback
+	- save point
+
+data Types
+------------
+number(10) 1373876543
+number(2,5)
+varchar
+varchar(100) - 10 chars
+varchar2
+varchar2(20)
+date   -> yyyy-mm-dd  (10-aug-1987)
+blob  (binalary large objects)
+clob (character large objects)
+file 
+
+D:/file/
+
+
+----------------------------
+file_id	file_loc	  file_type
+F001	d:/files/001.doc  document
+
+
+
+create table product(
+prod_id number(10),
+prod_name VARCHAR2(20),
+price number(20)
+)
+
+desc product;
+
+Adding a new coloun to existing table
+
+alter table product
+add loc varchar2(15)
+
+Renaming existing column
+
+alter table product
+rename COLUMN loc to location
+
+Modifying existing data type
+
+alter table product
+MODIFY  location number
+
+Deleting a column from table
+
+alter table product
+drop COLUMN location
+
+
+Adding Containts
+
+- Primary key
+- foreign key
+- composit primary key
+
+
+primary key
+------------
+	-> column level
+	-> table level
+	-> after table created with alter commnad
+
+
+-> table level constraint 
+
+create table product(
+prod_id number(10),
+prod_name VARCHAR2(20),
+price number(20),
+constraint prod_pk_prod_id primary key(prod_id)
+
+)
+
+-> Droping a constraint 
+
+alter table product
+drop constraint prod_pk_prod_id
+
+-> adding constraint after table created
+
+alter table product
+add constraint prod_prodid primary key(prod_id)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
