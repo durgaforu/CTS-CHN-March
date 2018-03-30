@@ -1,0 +1,15 @@
+JAX-RS
+---------
+
+	-> http
+	-> https
+ HTTP methods
+	-> GET
+	-> POST
+	-> PUT
+	-> DELETE
+
+http://localhost:8080/RESTfulExample/rest/hello
+
+
+   	
